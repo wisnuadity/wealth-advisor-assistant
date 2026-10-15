@@ -1,0 +1,56 @@
+{
+  "C001": {
+    "client_id": "C001",
+    "client_status": "active",
+    "advisor_id": "ADV-014",
+    "advisor_name": "Advisor A",
+    "risk_profile": {
+      "risk_tolerance": "moderate",
+      "risk_capacity": "moderate",
+      "profile_last_updated": "2026-05-15"
+    },
+    "financial_goals": [
+      {
+        "goal": "retirement",
+        "target_amount": 750000.0,
+        "target_date": "2048-12-31",
+        "priority": "high"
+      },
+      {
+        "goal": "emergency_fund",
+        "target_amount": 30000.0,
+        "target_date": "2027-06-30",
+        "priority": "high"
+      },
+      {
+        "goal": "home_improvement",
+        "target_amount": 20000.0,
+        "target_date": "2028-12-31",
+        "priority": "medium"
+      }
+    ],
+    "preferences": {
+      "preferred_contact_method": "email",
+      "review_frequency": "quarterly",
+      "investment_constraints": [
+        "moderate risk tolerance",
+        "maintain emergency liquidity"
+      ]
+    },
+    "last_review": {
+      "date": "2026-06-15",
+      "summary": "Client prefers a balanced approach and wants to maintain sufficient emergency savings."
+    },
+    "crm_notes": [
+      {
+        "date": "2026-06-15",
+        "note": "Review cash-flow trends at the next quarterly meeting."
+      },
+      {
+        "date": "2026-06-15",
+        "note": "Confirm unusual or high-value transactions with the client before drawing conclusions."
+      }
+    ],
+    "data_notes": "Synthetic mock CRM record for assessment use only."
+  }
+}

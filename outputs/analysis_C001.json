@@ -1,0 +1,164 @@
+{
+  "status": "success",
+  "client_id": "C001",
+  "generated_at": "2026-10-15T04:12:14.666934+00:00",
+  "workflow": {
+    "started_at": "2026-10-15T04:12:02.457928+00:00",
+    "agents_executed": [
+      "DataFetcherAgent",
+      "FinancialAnalyzerAgent",
+      "LLMInsightAgent"
+    ]
+  },
+  "client_context": {
+    "client_status": "active",
+    "risk_profile": {
+      "profile_last_updated": "2026-05-15",
+      "risk_capacity": "moderate",
+      "risk_tolerance": "moderate"
+    },
+    "financial_goals": [
+      {
+        "goal": "retirement",
+        "priority": "high",
+        "target_amount": 750000.0,
+        "target_date": "2048-12-31"
+      },
+      {
+        "goal": "emergency_fund",
+        "priority": "high",
+        "target_amount": 30000.0,
+        "target_date": "2027-06-30"
+      },
+      {
+        "goal": "home_improvement",
+        "priority": "medium",
+        "target_amount": 20000.0,
+        "target_date": "2028-12-31"
+      }
+    ],
+    "preferences": {
+      "investment_constraints": [
+        "moderate risk tolerance",
+        "maintain emergency liquidity"
+      ],
+      "preferred_contact_method": "email",
+      "review_frequency": "quarterly"
+    },
+    "crm_notes": [
+      {
+        "date": "2026-06-15",
+        "note": "Review cash-flow trends at the next quarterly meeting."
+      },
+      {
+        "date": "2026-06-15",
+        "note": "Confirm unusual or high-value transactions with the client before drawing conclusions."
+      }
+    ]
+  },
+  "financial_analysis": {
+    "client_id": "C001",
+    "summary": {
+      "transaction_count": 100,
+      "income_total": 30000.0,
+      "expense_total": 18694.05,
+      "net_cash_flow": 11305.95
+    },
+    "expenses_by_category": {
+      "dining": 434.21,
+      "education": 679.59,
+      "electronics": 2850.0,
+      "fuel": 293.74,
+      "groceries": 544.7,
+      "healthcare": 816.36,
+      "home": 532.43,
+      "international_transfer": 4200.0,
+      "shopping": 1159.55,
+      "subscriptions": 212.86,
+      "transfer": 2500.0,
+      "transport": 259.49,
+      "travel": 1850.0,
+      "utilities": 2361.12
+    },
+    "potential_anomalies": [
+      {
+        "transaction_id": "T020",
+        "date": "2026-06-16",
+        "amount": 2850.0,
+        "category": "electronics",
+        "reason": "Expense amount exceeds the overall mean by 2.0 population standard deviations.",
+        "requires_review": true,
+        "contextual_summary": "The transaction on June 16, 2026, involving an electronics purchase for $2850 was flagged with a statistical flag indicating that this amount is unusually high, not due to unauthorized activity or fraud. This transaction amount is 2.0 population standard deviations above the overall mean for such transactions. Given the statistical nature of the flag, it is recommended to verify this transaction with the client to confirm its appropriateness.",
+        "contextual_summary_status": "generated",
+        "contextual_summary_model": "qwen2.5:3b"
+      },
+      {
+        "transaction_id": "T078",
+        "date": "2026-08-14",
+        "amount": 4200.0,
+        "category": "international_transfer",
+        "reason": "Expense amount exceeds the overall mean by 2.0 population standard deviations.",
+        "requires_review": true,
+        "contextual_summary": "The transaction on August 14, 2026, for an amount of 4200.00 in the \"international_transfer\" category indicates an unusual amount based on statistical analysis, which is higher than the overall mean by 2.0 population standard deviations. This statistical flag does not suggest fraud or unauthorized activity but highlights a significant deviation from typical spending patterns for this category. Verification with the client is recommended to understand the purpose of this transaction.",
+        "contextual_summary_status": "generated",
+        "contextual_summary_model": "qwen2.5:3b"
+      },
+      {
+        "transaction_id": "T090",
+        "date": "2026-08-14",
+        "amount": 1850.0,
+        "category": "travel",
+        "reason": "Expense amount exceeds the overall mean by 2.0 population standard deviations.",
+        "requires_review": true,
+        "contextual_summary": "The transaction on August 14, 2026, for $1850 in the travel category is flagged as an unusual amount, as it exceeds the overall mean by 2.0 population standard deviations. Given this statistical flag, it is recommended to verify with the client to understand if this transaction aligns with their financial goals or preferences related to travel expenses.",
+        "contextual_summary_status": "generated",
+        "contextual_summary_model": "qwen2.5:3b"
+      }
+    ],
+    "anomaly_count": 3,
+    "analysis_notes": [
+      "Anomaly flags are preliminary and require human review.",
+      "Unusual transaction amounts do not by themselves prove fraud."
+    ]
+  },
+  "human_review": {
+    "required": true,
+    "status": "pending",
+    "items": [
+      {
+        "transaction_id": "T020",
+        "date": "2026-06-16",
+        "amount": 2850.0,
+        "category": "electronics",
+        "reason": "Expense amount exceeds the overall mean by 2.0 population standard deviations.",
+        "requires_review": true,
+        "contextual_summary": "The transaction on June 16, 2026, involving an electronics purchase for $2850 was flagged with a statistical flag indicating that this amount is unusually high, not due to unauthorized activity or fraud. This transaction amount is 2.0 population standard deviations above the overall mean for such transactions. Given the statistical nature of the flag, it is recommended to verify this transaction with the client to confirm its appropriateness.",
+        "contextual_summary_status": "generated",
+        "contextual_summary_model": "qwen2.5:3b"
+      },
+      {
+        "transaction_id": "T078",
+        "date": "2026-08-14",
+        "amount": 4200.0,
+        "category": "international_transfer",
+        "reason": "Expense amount exceeds the overall mean by 2.0 population standard deviations.",
+        "requires_review": true,
+        "contextual_summary": "The transaction on August 14, 2026, for an amount of 4200.00 in the \"international_transfer\" category indicates an unusual amount based on statistical analysis, which is higher than the overall mean by 2.0 population standard deviations. This statistical flag does not suggest fraud or unauthorized activity but highlights a significant deviation from typical spending patterns for this category. Verification with the client is recommended to understand the purpose of this transaction.",
+        "contextual_summary_status": "generated",
+        "contextual_summary_model": "qwen2.5:3b"
+      },
+      {
+        "transaction_id": "T090",
+        "date": "2026-08-14",
+        "amount": 1850.0,
+        "category": "travel",
+        "reason": "Expense amount exceeds the overall mean by 2.0 population standard deviations.",
+        "requires_review": true,
+        "contextual_summary": "The transaction on August 14, 2026, for $1850 in the travel category is flagged as an unusual amount, as it exceeds the overall mean by 2.0 population standard deviations. Given this statistical flag, it is recommended to verify with the client to understand if this transaction aligns with their financial goals or preferences related to travel expenses.",
+        "contextual_summary_status": "generated",
+        "contextual_summary_model": "qwen2.5:3b"
+      }
+    ],
+    "message": "Review flagged transactions before making advisory decisions."
+  }
+}

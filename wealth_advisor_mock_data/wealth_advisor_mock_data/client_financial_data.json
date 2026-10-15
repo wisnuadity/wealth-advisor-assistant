@@ -1,0 +1,1032 @@
+{
+  "client_id": "C001",
+  "currency": "USD",
+  "data_period": {
+    "start_date": "2026-06-01",
+    "end_date": "2026-08-31",
+    "description": "Synthetic sample data for assessment; all amounts and identities are fictional."
+  },
+  "profile": {
+    "age": 38,
+    "monthly_income": 10000.0,
+    "reported_average_monthly_expenses": 6500.0,
+    "cash_balance": 28500.0,
+    "investment_assets": 151500.0,
+    "total_assets": 180000.0,
+    "total_liabilities": 45000.0,
+    "net_worth": 135000.0
+  },
+  "transactions": [
+    {
+      "transaction_id": "T021",
+      "date": "2026-06-01",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 14.45,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T030",
+      "date": "2026-06-02",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 29.13,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T032",
+      "date": "2026-06-02",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 116.47,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T014",
+      "date": "2026-06-03",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 113.98,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T024",
+      "date": "2026-06-03",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 34.74,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T033",
+      "date": "2026-06-03",
+      "type": "expense",
+      "category": "fuel",
+      "merchant": "Fuel Station",
+      "description": "Fuel payment",
+      "amount": 26.34,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T005",
+      "date": "2026-06-04",
+      "type": "expense",
+      "category": "groceries",
+      "merchant": "Fresh Market",
+      "description": "Groceries payment",
+      "amount": 71.09,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T013",
+      "date": "2026-06-04",
+      "type": "expense",
+      "category": "dining",
+      "merchant": "Local Restaurant",
+      "description": "Dining payment",
+      "amount": 39.74,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T027",
+      "date": "2026-06-10",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 93.56,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T028",
+      "date": "2026-06-11",
+      "type": "expense",
+      "category": "dining",
+      "merchant": "Local Restaurant",
+      "description": "Dining payment",
+      "amount": 87.72,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T003",
+      "date": "2026-06-12",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 32.61,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T018",
+      "date": "2026-06-12",
+      "type": "expense",
+      "category": "home",
+      "merchant": "Home Supplies",
+      "description": "Home payment",
+      "amount": 27.75,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T015",
+      "date": "2026-06-16",
+      "type": "expense",
+      "category": "home",
+      "merchant": "Home Supplies",
+      "description": "Home payment",
+      "amount": 41.24,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T020",
+      "date": "2026-06-16",
+      "type": "expense",
+      "category": "electronics",
+      "merchant": "Electronics Store",
+      "description": "High-value electronics purchase; review against client history",
+      "amount": 2850.0,
+      "currency": "USD",
+      "anomaly_test_case": "high_value_transaction"
+    },
+    {
+      "transaction_id": "T002",
+      "date": "2026-06-17",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 29.78,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T007",
+      "date": "2026-06-17",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 162.71,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T023",
+      "date": "2026-06-17",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 37.49,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T009",
+      "date": "2026-06-18",
+      "type": "expense",
+      "category": "groceries",
+      "merchant": "Fresh Market",
+      "description": "Groceries payment",
+      "amount": 55.28,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T022",
+      "date": "2026-06-18",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 213.61,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T029",
+      "date": "2026-06-19",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 51.54,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T034",
+      "date": "2026-06-19",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 88.6,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T025",
+      "date": "2026-06-20",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 73.31,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T008",
+      "date": "2026-06-22",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 11.71,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T012",
+      "date": "2026-06-22",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 119.66,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T004",
+      "date": "2026-06-23",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 86.14,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T011",
+      "date": "2026-06-23",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 75.89,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T031",
+      "date": "2026-06-24",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 67.91,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T001",
+      "date": "2026-06-25",
+      "type": "income",
+      "category": "salary",
+      "merchant": "Employer Payroll",
+      "description": "Monthly salary",
+      "amount": 10000.0,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T019",
+      "date": "2026-06-25",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 35.81,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T010",
+      "date": "2026-06-26",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 92.64,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T016",
+      "date": "2026-06-26",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 29.96,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T006",
+      "date": "2026-06-27",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 14.81,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T026",
+      "date": "2026-06-29",
+      "type": "expense",
+      "category": "transport",
+      "merchant": "Ride Service",
+      "description": "Transport payment",
+      "amount": 19.76,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T017",
+      "date": "2026-06-30",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 28.83,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T043",
+      "date": "2026-07-02",
+      "type": "expense",
+      "category": "transport",
+      "merchant": "Ride Service",
+      "description": "Transport payment",
+      "amount": 51.52,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T057",
+      "date": "2026-07-02",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 232.34,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T044",
+      "date": "2026-07-03",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 111.0,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T038",
+      "date": "2026-07-06",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 219.31,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T058",
+      "date": "2026-07-06",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 43.11,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T063",
+      "date": "2026-07-07",
+      "type": "expense",
+      "category": "home",
+      "merchant": "Home Supplies",
+      "description": "Home payment",
+      "amount": 154.79,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T047",
+      "date": "2026-07-08",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 149.84,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T048",
+      "date": "2026-07-09",
+      "type": "expense",
+      "category": "home",
+      "merchant": "Home Supplies",
+      "description": "Home payment",
+      "amount": 44.51,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T049",
+      "date": "2026-07-10",
+      "type": "expense",
+      "category": "groceries",
+      "merchant": "Fresh Market",
+      "description": "Groceries payment",
+      "amount": 140.11,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T067",
+      "date": "2026-07-10",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 33.72,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T054",
+      "date": "2026-07-11",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 215.46,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T059",
+      "date": "2026-07-11",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 62.01,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T061",
+      "date": "2026-07-12",
+      "type": "expense",
+      "category": "fuel",
+      "merchant": "Fuel Station",
+      "description": "Fuel payment",
+      "amount": 63.45,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T036",
+      "date": "2026-07-13",
+      "type": "expense",
+      "category": "fuel",
+      "merchant": "Fuel Station",
+      "description": "Fuel payment",
+      "amount": 72.56,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T053",
+      "date": "2026-07-15",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 104.36,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T065",
+      "date": "2026-07-15",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 33.72,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T050",
+      "date": "2026-07-16",
+      "type": "expense",
+      "category": "home",
+      "merchant": "Home Supplies",
+      "description": "Home payment",
+      "amount": 78.92,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T051",
+      "date": "2026-07-16",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 153.1,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T052",
+      "date": "2026-07-17",
+      "type": "expense",
+      "category": "fuel",
+      "merchant": "Fuel Station",
+      "description": "Fuel payment",
+      "amount": 30.03,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T062",
+      "date": "2026-07-17",
+      "type": "expense",
+      "category": "dining",
+      "merchant": "Local Restaurant",
+      "description": "Dining payment",
+      "amount": 56.86,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T041",
+      "date": "2026-07-18",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 106.98,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T046",
+      "date": "2026-07-18",
+      "type": "expense",
+      "category": "dining",
+      "merchant": "Local Restaurant",
+      "description": "Dining payment",
+      "amount": 58.44,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T064",
+      "date": "2026-07-18",
+      "type": "expense",
+      "category": "transport",
+      "merchant": "Ride Service",
+      "description": "Transport payment",
+      "amount": 29.12,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T066",
+      "date": "2026-07-18",
+      "type": "expense",
+      "category": "fuel",
+      "merchant": "Fuel Station",
+      "description": "Fuel payment",
+      "amount": 54.43,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T055",
+      "date": "2026-07-20",
+      "type": "expense",
+      "category": "transfer",
+      "merchant": "Online Transfer",
+      "description": "Transfer to external account",
+      "amount": 1250.0,
+      "currency": "USD",
+      "anomaly_test_case": "repeated_transfer_candidate"
+    },
+    {
+      "transaction_id": "T056",
+      "date": "2026-07-20",
+      "type": "expense",
+      "category": "transfer",
+      "merchant": "Online Transfer",
+      "description": "Similar transfer to external account on the same day",
+      "amount": 1250.0,
+      "currency": "USD",
+      "anomaly_test_case": "repeated_transfer_candidate"
+    },
+    {
+      "transaction_id": "T045",
+      "date": "2026-07-22",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 20.97,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T035",
+      "date": "2026-07-25",
+      "type": "income",
+      "category": "salary",
+      "merchant": "Employer Payroll",
+      "description": "Monthly salary",
+      "amount": 10000.0,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T060",
+      "date": "2026-07-25",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 115.5,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T040",
+      "date": "2026-07-30",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 77.53,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T042",
+      "date": "2026-07-30",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 199.32,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T037",
+      "date": "2026-07-31",
+      "type": "expense",
+      "category": "home",
+      "merchant": "Home Supplies",
+      "description": "Home payment",
+      "amount": 142.47,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T039",
+      "date": "2026-07-31",
+      "type": "expense",
+      "category": "transport",
+      "merchant": "Ride Service",
+      "description": "Transport payment",
+      "amount": 39.79,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T069",
+      "date": "2026-08-01",
+      "type": "expense",
+      "category": "fuel",
+      "merchant": "Fuel Station",
+      "description": "Fuel payment",
+      "amount": 46.93,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T072",
+      "date": "2026-08-01",
+      "type": "expense",
+      "category": "groceries",
+      "merchant": "Fresh Market",
+      "description": "Groceries payment",
+      "amount": 51.36,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T077",
+      "date": "2026-08-01",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 29.44,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T079",
+      "date": "2026-08-02",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 216.16,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T071",
+      "date": "2026-08-04",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 86.71,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T086",
+      "date": "2026-08-04",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 52.36,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T096",
+      "date": "2026-08-05",
+      "type": "expense",
+      "category": "transport",
+      "merchant": "Ride Service",
+      "description": "Transport payment",
+      "amount": 35.56,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T100",
+      "date": "2026-08-06",
+      "type": "expense",
+      "category": "transport",
+      "merchant": "Ride Service",
+      "description": "Transport payment",
+      "amount": 44.57,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T080",
+      "date": "2026-08-09",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 54.11,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T089",
+      "date": "2026-08-09",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 81.06,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T093",
+      "date": "2026-08-10",
+      "type": "expense",
+      "category": "dining",
+      "merchant": "Local Restaurant",
+      "description": "Dining payment",
+      "amount": 49.87,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T070",
+      "date": "2026-08-11",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 77.77,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T078",
+      "date": "2026-08-14",
+      "type": "expense",
+      "category": "international_transfer",
+      "merchant": "International Transfer Service",
+      "description": "International transfer; review due to amount and category",
+      "amount": 4200.0,
+      "currency": "USD",
+      "anomaly_test_case": "unusual_international_transfer"
+    },
+    {
+      "transaction_id": "T082",
+      "date": "2026-08-14",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 32.65,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T090",
+      "date": "2026-08-14",
+      "type": "expense",
+      "category": "travel",
+      "merchant": "Travel Booking",
+      "description": "Travel booking; may contribute to monthly spending increase",
+      "amount": 1850.0,
+      "currency": "USD",
+      "anomaly_test_case": "spending_spike_candidate"
+    },
+    {
+      "transaction_id": "T099",
+      "date": "2026-08-14",
+      "type": "expense",
+      "category": "dining",
+      "merchant": "Local Restaurant",
+      "description": "Dining payment",
+      "amount": 64.34,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T091",
+      "date": "2026-08-16",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 52.56,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T083",
+      "date": "2026-08-17",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 42.4,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T092",
+      "date": "2026-08-17",
+      "type": "expense",
+      "category": "home",
+      "merchant": "Home Supplies",
+      "description": "Home payment",
+      "amount": 42.75,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T094",
+      "date": "2026-08-17",
+      "type": "expense",
+      "category": "subscriptions",
+      "merchant": "Digital Subscription",
+      "description": "Subscriptions payment",
+      "amount": 29.09,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T095",
+      "date": "2026-08-20",
+      "type": "expense",
+      "category": "transport",
+      "merchant": "Ride Service",
+      "description": "Transport payment",
+      "amount": 39.17,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T073",
+      "date": "2026-08-23",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 84.25,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T084",
+      "date": "2026-08-24",
+      "type": "expense",
+      "category": "groceries",
+      "merchant": "Fresh Market",
+      "description": "Groceries payment",
+      "amount": 125.83,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T068",
+      "date": "2026-08-25",
+      "type": "income",
+      "category": "salary",
+      "merchant": "Employer Payroll",
+      "description": "Monthly salary",
+      "amount": 10000.0,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T074",
+      "date": "2026-08-25",
+      "type": "expense",
+      "category": "dining",
+      "merchant": "Local Restaurant",
+      "description": "Dining payment",
+      "amount": 77.24,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T075",
+      "date": "2026-08-27",
+      "type": "expense",
+      "category": "groceries",
+      "merchant": "Fresh Market",
+      "description": "Groceries payment",
+      "amount": 101.03,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T076",
+      "date": "2026-08-27",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 200.1,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T087",
+      "date": "2026-08-27",
+      "type": "expense",
+      "category": "utilities",
+      "merchant": "Utility Provider",
+      "description": "Utilities payment",
+      "amount": 208.55,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T088",
+      "date": "2026-08-27",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 64.22,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T085",
+      "date": "2026-08-28",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 50.39,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T098",
+      "date": "2026-08-28",
+      "type": "expense",
+      "category": "healthcare",
+      "merchant": "Pharmacy",
+      "description": "Healthcare payment",
+      "amount": 124.89,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T097",
+      "date": "2026-08-30",
+      "type": "expense",
+      "category": "shopping",
+      "merchant": "General Retailer",
+      "description": "Shopping payment",
+      "amount": 131.03,
+      "currency": "USD"
+    },
+    {
+      "transaction_id": "T081",
+      "date": "2026-08-31",
+      "type": "expense",
+      "category": "education",
+      "merchant": "Learning Platform",
+      "description": "Education payment",
+      "amount": 78.13,
+      "currency": "USD"
+    }
+  ],
+  "data_notes": [
+    "All records are synthetic and created solely for software testing.",
+    "Transaction amounts are positive; transaction type determines whether the amount is income or expense.",
+    "The anomaly_test_case field is ground-truth metadata for testing only. A production analyzer should not use it as an input feature when detecting anomalies.",
+    "An anomaly candidate is a signal for review, not proof of fraud."
+  ]
+}

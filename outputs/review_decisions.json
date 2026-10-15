@@ -1,0 +1,32 @@
+[
+  {
+    "transaction_id": "T020",
+    "original_flag": true,
+    "decision": "approve_flag",
+    "override_status": null,
+    "reviewer_note": "Flag anomali approved",
+    "reviewed_at": "2026-10-15T04:18:32.945538+00:00",
+    "client_id": "C001",
+    "reviewer": "REV001"
+  },
+  {
+    "transaction_id": "T078",
+    "original_flag": true,
+    "decision": "approve_flag",
+    "override_status": null,
+    "reviewer_note": "Flag anomali approved",
+    "reviewed_at": "2026-10-15T04:18:37.577145+00:00",
+    "client_id": "C001",
+    "reviewer": "REV001"
+  },
+  {
+    "transaction_id": "T090",
+    "original_flag": true,
+    "decision": "approve_flag",
+    "override_status": null,
+    "reviewer_note": "Flag anomali approved",
+    "reviewed_at": "2026-10-15T04:18:42.494320+00:00",
+    "client_id": "C001",
+    "reviewer": "REV001"
+  }
+]
